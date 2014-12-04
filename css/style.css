@@ -622,7 +622,7 @@ body {
 .skillbar {
     position: relative;
     display: block;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     padding-left: 135px;
     width: 100%;
     background: #eee;
@@ -641,10 +641,6 @@ body {
     -ms-transition-property: width, background-color;
     -o-transition-property: width, background-color;
     transition-property: width, background-color;
-}
-
-.skillbar-sub {
-    margin-top: -10px;
 }
 
 .skillbar-sub .skillbar-title {
@@ -689,7 +685,6 @@ body {
 }
 
 .skillbar-bar {
-    /* opacity: .75; */
     height: 25px;
     background: rgba(255,255,255,1);
     background: rgba(255,255,255,0.25);
@@ -705,10 +700,11 @@ body {
     right: 10px;
     top: 0;
     font-size: 11px;
+    font-weight: bold;
     height: 25px;
     line-height: 25px;
-    color: #ffffff;
-    color: rgba(0, 0, 0, 0.4);
+    color: #000;
+    /*color: rgba(0, 0, 0, 0.4);*/;
 }
 
 .skills-legend {
@@ -776,12 +772,17 @@ body {
 /* SUB TIEMS
 ==============================*/
 .timeline-panel .skillbar + div {
-    margin-bottom: 10px;
     margin-left: 135px;
+    padding-top: 0px;
 }
 
 .timeline-panel .skillbar + div span {
-    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.timeline-panel .skillbar + div.panel {
+    background-color: #eee;
+    padding: 10px;
 }
 
 /* LANGUAGE COLORS
@@ -791,11 +792,11 @@ body {
 }
 
 .javascript {
-    background-color: rgb(255,204,0);
+    background-color: rgb(76,164,84);
 }
 
 .servers {
-    background-color: rgb(112,171,19);
+    background-color: rgb(225,135,40);
 }
 
 .databases {
