@@ -790,16 +790,16 @@ body {
     background-color: rgb(69, 135, 184);
 }
 
-.jquery {
-    background-color: rgb(16,105,175);
+.javascript {
+    background-color: rgb(255,204,0);
 }
 
-.java {
-    background-color: rgb(231,111,0);
+.servers {
+    background-color: rgb(112,171,19);
 }
 
-.extjs {
-    background-color: rgb(139,204,14);
+.databases {
+    background-color: rgb(210,69,60);
 }
 
 
