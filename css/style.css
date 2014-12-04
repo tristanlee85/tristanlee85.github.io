@@ -641,11 +641,21 @@ body {
     transition-property: width, background-color;
 }
 
+.skillbar-sub {
+  margin-left: 25px;
+  margin-top: -10px;
+  width: initial;
+}
+
+.skillbar-sub .skillbar-title {
+  width: 110px;
+}
+
 .skillbar-title {
     position: absolute;
     top: 0;
     left: 0;
-    width: 110px;
+    width: 135px;
     font-weight: bold;
     font-size: 13px;
     color: #ffffff;
