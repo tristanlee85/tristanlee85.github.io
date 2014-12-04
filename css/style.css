@@ -626,6 +626,7 @@ body {
     padding-left: 135px;
     width: 100%;
     background: #eee;
+    background-clip: content-box;
     height: 25px;
     border-radius: 3px;
     -moz-border-radius: 3px;
@@ -644,6 +645,12 @@ body {
 
 .skillbar-sub {
   margin-top: -10px;
+}
+
+.skillbar-sub .skillbar-title {
+  background: #9C9C9C;
+width: 110px;
+margin-left: 25px;
 }
 
 .skillbar-title {
