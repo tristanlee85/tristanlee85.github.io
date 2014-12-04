@@ -644,13 +644,13 @@ body {
 }
 
 .skillbar-sub {
-  margin-top: -10px;
+    margin-top: -10px;
 }
 
 .skillbar-sub .skillbar-title {
-  background: #9C9C9C;
-width: 110px;
-margin-left: 25px;
+    background: #9C9C9C;
+    width: 110px;
+    margin-left: 25px;
 }
 
 .skillbar-title {
@@ -685,8 +685,9 @@ margin-left: 25px;
 }
 
 .skillbar-sub .skillbar-bar {
-  background-color: rgb(26, 136, 188);
+    background-color: rgb(26, 136, 188);
 }
+
 .skillbar-bar {
     height: 25px;
     width: 0px;
@@ -710,58 +711,66 @@ margin-left: 25px;
     color: rgba(0, 0, 0, 0.4);
 }
 
-.skills-legend{
-  margin-top: 20px;
-  margin-left: 135px;
-  opacity: 0.8;
+.skills-legend {
+    margin-top: 20px;
+    margin-left: 135px;
+    opacity: 0.8;
 }
-.skills-legend:before{
-  width: 100%;
-  height: 3px;
-  position: relative;
-  content: ' ';
-  display: block;
-  margin-bottom: -13px;
-  background: #c6c6c6;
+
+.skills-legend:before {
+    width: 100%;
+    height: 3px;
+    position: relative;
+    content: ' ';
+    display: block;
+    margin-bottom: -13px;
+    background: #c6c6c6;
 }
-.skills-legend div{
-  width: 10%;
-  display: inline-block;
-  font-size: 1.2em;
-  color: #a9a9a9;
-  float: left;
+
+.skills-legend div {
+    width: 10%;
+    display: inline-block;
+    font-size: 1.2em;
+    color: #a9a9a9;
+    float: left;
 }
-.legend:before{
-  width: 3px;
-  height: 10px;
-  position: relative;
-  content: ' ';
-  display: block;
-  margin: auto;
-  margin-bottom: 15px;
-  background: #c6c6c6;
+
+.legend:before {
+    width: 3px;
+    height: 10px;
+    position: relative;
+    content: ' ';
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    background: #c6c6c6;
 }
-.legend-left.legend:before{
-  margin-left: 0;
+
+.legend-left.legend:before {
+    margin-left: 0;
 }
-.legend-right.legend:before{
-  margin-right: 0;
+
+.legend-right.legend:before {
+    margin-right: 0;
 }
-.legend-right{
-  text-align: right;
+
+.legend-right {
+    text-align: left;
+    white-space: nowrap;
 }
-.legend-left-right.legend:after{
-  width: 3px;
-  height: 10px;
-  position: relative;
-  content: ' ';
-  margin: auto;
-  margin-bottom: 15px;
-  background: #c6c6c6;
-  display: block;
-  float: left;
-  top: -25px;
-  left: -3px;
+
+.legend-left-right.legend:after {
+    width: 3px;
+    height: 10px;
+    position: relative;
+    content: ' ';
+    margin: auto;
+    margin-bottom: 15px;
+    background: #c6c6c6;
+    display: block;
+    float: left;
+    top: -25px;
+    left: -3px;
 }
 
 /* BLOG
