@@ -730,7 +730,7 @@ body {
 .skills-legend div {
     width: 10%;
     display: inline-block;
-    font-size: 1.2em;
+    font-size: 1em;
     color: #a9a9a9;
     float: left;
 }
@@ -746,15 +746,11 @@ body {
     background: #c6c6c6;
 }
 
-.legend-left.legend:before {
-    margin-left: 0;
-}
-
-.legend-right.legend:before {
+.legend-left.legend:before, .legend-right.legend:before {
     margin-right: 0;
 }
 
-.legend-right {
+.legend-left, .legend-right {
     text-align: left;
     white-space: nowrap;
 }
