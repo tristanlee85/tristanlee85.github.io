@@ -725,7 +725,7 @@ margin-left: 25px;
   background: #c6c6c6;
 }
 .skills-legend div{
-  width: 50%;
+  width: 10%;
   display: inline-block;
   font-size: 1.2em;
   color: #a9a9a9;
@@ -747,14 +747,21 @@ margin-left: 25px;
 .legend-right.legend:before{
   margin-right: 0;
 }
-.legend-left:nth-child(2) span{
-  margin-left: -25px;
-}
-.legend-right:nth-child(3) span{
-  margin-right: -20px;
-}
 .legend-right{
   text-align: right;
+}
+.legend-left-right.legend:after{
+  width: 3px;
+  height: 10px;
+  position: relative;
+  content: ' ';
+  margin: auto;
+  margin-bottom: 15px;
+  background: #c6c6c6;
+  display: block;
+  float: left;
+  top: -25px;
+  left: -3px;
 }
 
 /* BLOG
