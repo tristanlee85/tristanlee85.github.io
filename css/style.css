@@ -769,56 +769,13 @@ body {
     left: -3px;
 }
 
-/* BLOG
+/* LANGUAGE COLORS
 ==============================*/
+.coldfusion {background-color: rgb(49,95,129);}
+.jquery {background-color: rgb(16,105,175);}
+.java {background-color: rgb(231,111,0);}
+.extjs {background-color: rgb(139,204,14);}
 
-#blog .blog-content h3 {
-    margin-top: 0;
-    margin-bottom: 5px;
-}
-
-#blog .blog-content h3 a {
-    text-decoration: none;
-    color: #34495e;
-}
-
-#blog .blog-content h3 a:hover {
-    color: #1abc9c;
-    transition: all 1s ease;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    -o-transition: all 1s ease;
-}
-
-#blog .blog-content small i.fa {
-    margin-right: 8px;
-    color: #bdc3c7;
-}
-
-#blog .blog-content small a {
-    margin-right: 20px;
-    color: #7f8c8d;
-    text-decoration: none;
-}
-
-#blog .blog-content small a:hover {
-    color: #1abc9c;
-    transition: all 1s ease;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    -o-transition: all 1s ease;
-}
-
-#blog .blog-content p {
-    margin-top: 15px;
-}
-
-#blog img {
-    height: 180px;
-    width: 100%;
-}
 
 /* CONTACT
 ===========================*/
