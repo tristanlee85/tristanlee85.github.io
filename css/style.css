@@ -773,6 +773,17 @@ body {
     left: -3px;
 }
 
+/* SUB TIEMS
+==============================*/
+.timeline-panel .skillbar + div {
+    margin-bottom: 10px;
+    margin-left: 135px;
+}
+
+.timeline-panel .skillbar + div span {
+    margin-bottom: 5px;
+}
+
 /* LANGUAGE COLORS
 ==============================*/
 .coldfusion {
