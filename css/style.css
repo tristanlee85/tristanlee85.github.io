@@ -623,6 +623,7 @@ body {
     position: relative;
     display: block;
     margin-bottom: 15px;
+    padding-left: 135px;
     width: 100%;
     background: #eee;
     height: 25px;
@@ -642,13 +643,7 @@ body {
 }
 
 .skillbar-sub {
-  margin-left: 25px;
   margin-top: -10px;
-  width: initial;
-}
-
-.skillbar-sub .skillbar-title {
-  width: 110px;
 }
 
 .skillbar-title {
@@ -686,9 +681,12 @@ body {
     height: 25px;
     width: 0px;
     background: #6adcfa;
-    border-radius: 3px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
+    border-top-right-radius: 3px;
+    -moz-border-top-right-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    -moz-border-bottom-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
 }
 
 .skill-bar-percent {
@@ -704,7 +702,7 @@ body {
 
 .skills-legend{
   margin-top: 20px;
-  margin-left: 110px;
+  margin-left: 135px;
   opacity: 0.8;
 }
 .skills-legend:before{
