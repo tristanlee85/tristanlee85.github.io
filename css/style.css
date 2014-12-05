@@ -582,6 +582,28 @@ body {
     margin-top: 5px;
 }
 
+.skill.panel .panel-heading {
+    font-weight: bold;
+    font-size: 13px;
+    color: #ffffff;
+    padding: 5px 5px;
+    padding-left: 20px;
+}
+
+.skill .panel-body {
+    padding: 5px;
+    padding-left: 25px;
+}
+
+.skill.panel:last-of-type {
+    margin-bottom: 0;
+}
+
+.skill.panel .panel-body .badge {
+    font-size: .9em;
+    margin-left: 5px;
+}
+
 /* WORK
 ==========================*/
 
@@ -616,158 +638,6 @@ body {
     margin-top: 15px;
 }
 
-/* Skills
-===========================*/
-
-.skillbar {
-    position: relative;
-    display: block;
-    margin-bottom: 5px;
-    padding-left: 135px;
-    width: 100%;
-    background: #eee;
-    background-clip: content-box;
-    height: 25px;
-    border-radius: 3px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -webkit-transition: 0.4s linear;
-    -moz-transition: 0.4s linear;
-    -ms-transition: 0.4s linear;
-    -o-transition: 0.4s linear;
-    transition: 0.4s linear;
-    -webkit-transition-property: width, background-color;
-    -moz-transition-property: width, background-color;
-    -ms-transition-property: width, background-color;
-    -o-transition-property: width, background-color;
-    transition-property: width, background-color;
-}
-
-.skillbar-sub .skillbar-title {
-    background: #9C9C9C;
-    width: 110px;
-    margin-left: 25px;
-}
-
-.skillbar-title {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 135px;
-    font-weight: bold;
-    font-size: 13px;
-    color: #ffffff;
-    background: #6adcfa;
-    -webkit-border-top-left-radius: 3px;
-    -webkit-border-bottom-left-radius: 4px;
-    -moz-border-radius-topleft: 3px;
-    -moz-border-radius-bottomleft: 3px;
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
-}
-
-.skillbar-title span {
-    display: block;
-    background: rgba(0, 0, 0, 0.25);
-    padding: 0 20px;
-    height: 25px;
-    line-height: 25px;
-    -webkit-border-top-left-radius: 3px;
-    -webkit-border-bottom-left-radius: 3px;
-    -moz-border-top-left-radius: 3px;
-    -moz-border-bottom-left-radius: 3px;
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
-}
-
-.skillbar-sub .skillbar-bar {
-    background-color: rgb(26, 136, 188);
-}
-
-.skillbar-bar {
-    height: 25px;
-    background: rgba(255,255,255,1);
-    background: rgba(255,255,255,0.25);
-    border-top-right-radius: 3px;
-    -moz-border-top-right-radius: 3px;
-    -webkit-border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    -moz-border-bottom-right-radius: 3px;
-}
-
-.skill-bar-percent {
-    position: absolute;
-    right: 10px;
-    top: 0;
-    font-size: 11px;
-    font-weight: bold;
-    height: 25px;
-    line-height: 25px;
-    color: #000;
-    /*color: rgba(0, 0, 0, 0.4);*/
-}
-
-.skills-legend {
-    margin-top: 20px;
-    margin-left: 135px;
-    opacity: 0.8;
-}
-
-.skills-legend:before {
-    width: 100%;
-    height: 3px;
-    position: relative;
-    content: ' ';
-    display: block;
-    margin-bottom: -13px;
-    background: #c6c6c6;
-}
-
-.skills-legend div {
-    width: 10%;
-    display: inline-block;
-    font-size: 1.2em;
-    color: #a9a9a9;
-    float: left;
-}
-
-.legend:before {
-    width: 3px;
-    height: 10px;
-    position: relative;
-    content: ' ';
-    display: block;
-    margin: auto;
-    margin-bottom: 15px;
-    background: #c6c6c6;
-}
-
-.legend-left.legend:before {
-    margin-left: 0;
-}
-
-.legend-right.legend:before {
-    margin-right: 0;
-}
-
-.legend-left, .legend-right {
-    text-align: left;
-    white-space: nowrap;
-}
-
-.legend-left-right.legend:after {
-    width: 3px;
-    height: 10px;
-    position: relative;
-    content: ' ';
-    margin: auto;
-    margin-bottom: 15px;
-    background: #c6c6c6;
-    display: block;
-    float: left;
-    top: -25px;
-    left: -3px;
-}
 
 /* SUB TIEMS
 ==============================*/
@@ -776,30 +646,25 @@ body {
     padding-top: 0px;
 }
 
-.timeline-panel .skillbar + div span {
+.timeline-panel .skill.panel span {
     margin-top: 10px;
-}
-
-.timeline-panel .skillbar + div.panel {
-    background-color: #eee;
-    padding: 10px;
 }
 
 /* LANGUAGE COLORS
 ==============================*/
-.coldfusion {
+.skill.panel.coldfusion .panel-heading, .skill.panel.coldfusion .panel-body > span {
     background-color: rgb(69, 135, 184);
 }
 
-.javascript {
+.skill.panel.javascript .panel-heading, .skill.panel.javascript .panel-body > span {
     background-color: rgb(76,164,84);
 }
 
-.servers {
+.skill.panel.servers .panel-heading, .skill.panel.servers .panel-body > span {
     background-color: rgb(225,135,40);
 }
 
-.databases {
+.skill.panel.databases .panel-heading, .skill.panel.databases .panel-body > span {
     background-color: rgb(210,69,60);
 }
 
