@@ -648,24 +648,42 @@ body {
 
 .timeline-panel .skill.panel span {
     margin-top: 10px;
+    border: 1px solid black;
 }
 
 /* LANGUAGE COLORS
 ==============================*/
-.skill.panel.coldfusion .panel-heading, .skill.panel.coldfusion .panel-body > span {
+.skill.panel .panel-body > span {
+    background-color: #fff;
+    color: rgb(52, 73, 94);;
+}
+
+.skill.panel.coldfusion .panel-heading{
     background-color: rgb(69, 135, 184);
 }
+.skill.panel.coldfusion .panel-body > span {
+    border: 2px solid rgb(69, 135, 184);
+}
 
-.skill.panel.javascript .panel-heading, .skill.panel.javascript .panel-body > span {
+.skill.panel.javascript .panel-heading {
     background-color: rgb(76,164,84);
 }
-
-.skill.panel.servers .panel-heading, .skill.panel.servers .panel-body > span {
-    background-color: rgb(225,135,40);
+.skill.panel.javascript .panel-body > span {
+    border: 2px solid rgb(76,164,84);
 }
 
-.skill.panel.databases .panel-heading, .skill.panel.databases .panel-body > span {
+.skill.panel.servers .panel-heading {
+    background-color: rgb(225,135,40);
+}
+.skill.panel.servers .panel-body > span {
+    border: 2px solid rgb(225,135,40);
+}
+
+.skill.panel.databases .panel-heading {
     background-color: rgb(210,69,60);
+}
+.skill.panel.databases .panel-body > span {
+    border: 2px solid rgb(210,69,60);
 }
 
 
